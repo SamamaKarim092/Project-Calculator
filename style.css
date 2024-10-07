@@ -1,0 +1,9 @@
+.output {
+    width: 100%;       /* Full width of the calculator */
+    height: 50px;      /* Height of the output area */
+    background-color: #f0f0f0; /* Light gray background */
+    font-size: 2em;    /* Larger font size for visibility */
+    text-align: right; /* Align text to the right */
+    padding: 10px;     /* Padding around the text */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Slight shadow for effect */
+}
