@@ -28,6 +28,10 @@ function clearDisplay() {
 
 // Operation Function
 const operate = (operator, num1, num2) => {
+    // Handle division by zero
+    if (operator === '/' && num2 === 0) {
+        return "Cannot divide by zero"; // Error message
+    }
     switch (operator) {
         case '+':
             return sum(num1, num2);
