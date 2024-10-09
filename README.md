@@ -1,2 +1,2 @@
 # Project-Calculator
- It is a final Fondation of Javascript project 
+ It is a final project of Fondation of Javascript.
